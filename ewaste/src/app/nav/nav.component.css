@@ -1,0 +1,38 @@
+header {
+  background: #009933;
+}
+
+
+
+.logo {
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav {
+  justify-self: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+}
+
+li {
+  float: left;
+
+}
+
+a {
+  padding: 1.5em;
+  text-transform: uppercase;
+  font-size: .8em;
+  color: white;
+}
+
+a.logo {
+  color: black;
+}
+
+
