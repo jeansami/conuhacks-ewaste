@@ -10,6 +10,10 @@ import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
 import { StartedComponent } from './started/started.component';
 
+// For MDB Angular Free
+import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +26,9 @@ import { StartedComponent } from './started/started.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule,
+    WavesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

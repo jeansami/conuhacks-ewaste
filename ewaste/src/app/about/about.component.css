@@ -1,0 +1,41 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  padding: 100px 50px 100px 50px;
+}
+
+.grid-item-1 {
+  background-color:#009933;;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: black;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.grid-item-2 {
+  background-color:#5FA878;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: black;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.data {
+  text-align: center;
+}
+
+.pictures {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+}
