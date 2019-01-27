@@ -3,31 +3,38 @@
 
 
 <!-- Search form -->
-<!-- *************this is the formatted search bar don't delete
 <div class="active-green mb-4">
   <form action="search.php" method="post">
      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
     <input type="submit" name="submit" value="Search">
   </form>
 </div>
--->
 
 
+<!-- Testing out to see how the post method works with angular...Could not figure out how to pass it to PHP file.
 <form action="search.php" method="post">
   <input type="text" placeholder="name" name="name">
   <input type="submit" name="Submit" value="Submit">
 </form>
 
-
+<form ng-sumbit = "search.php">
+  <input type="text" placeholder="name" name="name">
+  <input type="submit" name="submit" value="ng">
+</form>
+-->
 
 <div class="results">
   <p>the results from the database go here</p>
 </div>
 
-<div class="map">
-  <p>Map showing the nearby recycling centers</p>
-</div>
+<section class="map">
+  <div class="map">
+  <p>Electronic Recycling Facilities:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d89539.38218718166!2d-73.60993019309437!3d45.46767475701062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1selectronic+recycling+center!5e0!3m2!1sen!2sca!4v1548580957704" width="700" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+  </div>
+
+</section>
 
 
 
