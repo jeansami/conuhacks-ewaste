@@ -1,8 +1,13 @@
 //calls express
 
-const express = require('express');
+var express = require('express');
 
-const app = express();
+var bodyParser = require('body-parser');
+
+var app = express();
+
+app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.json());
 
 //allows express to access html File
 app.get('/test.html', function(req, res) {
@@ -13,11 +18,11 @@ app.get('/test.html', function(req, res) {
 //rout Get request to path
 //these correspond to data in the html file for the form input. req.query.<name-of-input>
 
-app.get('/process_get', function(req, res){
+app.post('/process_get', function(req, res){
   response = {
-      first_name : req.query.first_name,
-      last_name : req.query.Last_name,
-      gender : req.query.gender
+      username : req.body.first_name,
+      password: req.body.last_name,
+      gender : req.body.gender
   };
 
 console.log (response);
