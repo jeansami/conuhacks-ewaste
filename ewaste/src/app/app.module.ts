@@ -9,7 +9,8 @@ import { SettingsComponent } from './settings/settings.component';
 import { SearchComponent } from './search/search.component';
 import { AboutComponent } from './about/about.component';
 import { StartedComponent } from './started/started.component';
-
+import { RegisterComponent } from './register/register.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,10 +19,13 @@ import { StartedComponent } from './started/started.component';
     SettingsComponent,
     SearchComponent,
     AboutComponent,
-    StartedComponent
+    StartedComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
+    ReactiveFormsModule,
     AppRoutingModule
   ],
   providers: [],
