@@ -13,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { WavesModule, InputsModule, ButtonsModule } from 'angular-bootstrap-md';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -33,9 +34,57 @@ import { WavesModule, InputsModule, ButtonsModule } from 'angular-bootstrap-md';
     AppRoutingModule,
     InputsModule,
     ButtonsModule,
-    WavesModule
+    WavesModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
