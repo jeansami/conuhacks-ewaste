@@ -12,8 +12,7 @@ import { StartedComponent } from './started/started.component';
 import { RegisterComponent } from './register/register.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
-// For MDB Angular Free
-import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
+import { WavesModule, InputsModule, ButtonsModule } from 'angular-bootstrap-md';
 
 
 @NgModule({
@@ -32,7 +31,8 @@ import { CarouselModule, WavesModule } from 'angular-bootstrap-md';
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    CarouselModule,
+    InputsModule,
+    ButtonsModule,
     WavesModule
   ],
   providers: [],

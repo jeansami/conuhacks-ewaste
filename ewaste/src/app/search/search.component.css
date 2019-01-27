@@ -1,0 +1,19 @@
+
+.active-green input[type=text]:focus:not([readonly]) {
+    border: 1px solid green;
+    box-shadow: 0 0 0 1px green;
+    height: 50px;
+    font-size: 25px;
+    width: 100%;
+}
+.active-green input[type=text]{
+    border: 1px solid grey;
+    box-shadow: 0 0 0 1px grey;
+    height: 50px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.contact {
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 .grid-container {
   display: inline-grid;
   grid-template-columns: auto auto;
-  padding: 100px 50px 100px 50px;
+  padding: 10px 50px 100px 50px;
 }
 
 .grid-item-1 {
@@ -10,8 +10,8 @@
   border-width: 1px 0px 1px 0px;
   border-color: black;
   padding: 10px;
-  font-size: 12px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
 }
 
 .grid-item-2 {
@@ -20,8 +20,8 @@
   border-width: 1px 0px 1px 0px;
   border-color: black;
   padding: 10px;
-  font-size: 12px;
-  text-align: center;
+  font-size: 18px;
+  text-align: left;
 }
 
 .contact {
@@ -30,6 +30,7 @@
 
 .data {
   text-align: center;
+  padding: 15px;
 }
 
 .pictures {
